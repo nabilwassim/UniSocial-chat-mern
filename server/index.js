@@ -38,8 +38,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "https://creative-sawine-e0ec3b.netlify.app",
-    methods: ["GET", "POST"],
+    origin: "http://unisocial.click/",
     credentials: true,
   },
 });
