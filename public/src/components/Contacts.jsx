@@ -260,6 +260,14 @@ const Container = styled.div`
     @media screen and (min-width: 720px) and (max-width: 1080px) {
       gap: 0.5rem;
 
+      
+      img {
+        height: 2rem;
+        padding: 1rem
+      }
+
+  
+
       .username {
         h2 {
           font-size: 1rem;
