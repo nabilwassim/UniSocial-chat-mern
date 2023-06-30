@@ -39,6 +39,7 @@ const server = app.listen(process.env.PORT, () =>
 const io = socket(server, {
   cors: {
     origin: "http://unisocial-chat-mern.onrender.com",
+    methods: ["GET", "POST"],
     credentials: true,
   },
 });
