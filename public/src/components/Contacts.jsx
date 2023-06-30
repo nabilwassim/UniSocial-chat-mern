@@ -259,7 +259,7 @@ const Container = styled.div`
 
     @media screen and (min-width: 720px) and (max-width: 1080px) {
       gap: 0.5rem;
-      display: none;
+
 
       .username {
         h2 {
