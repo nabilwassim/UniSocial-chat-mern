@@ -37,20 +37,59 @@ export default function Welcome() {
   );
 }
 
+// const Container = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   color: white;
+//   flex-direction: column;
+//   img {
+//     height: 20rem;
+//   }
+//   span {
+//     // color: #4e0eff;
+//     color: #2a9df4;
+//   }
+//   p{
+//     margin-top: 30px;
+//   }
+// `;
+
 const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   flex-direction: column;
+
   img {
     height: 20rem;
   }
+
   span {
-    // color: #4e0eff;
     color: #2a9df4;
   }
-  p{
+
+  p {
     margin-top: 30px;
+  }
+
+  @media screen and (max-width: 768px) {
+    img {
+      height: 15rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.8rem;
+      margin-top: 20px;
+    }
   }
 `;
