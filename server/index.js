@@ -40,7 +40,7 @@ const io = socket(server, {
   cors: {
     origin: "https://unisocial-chat-mern.onrender.com",
     credentials: true,
-    // transports: ['websocket'],
+    transports: ['websocket'],
   },
 });
 
