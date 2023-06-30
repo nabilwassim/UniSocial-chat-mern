@@ -38,7 +38,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "http://unisocial.click/",
+    origin: "http://unisocial.click",
     credentials: true,
   },
 });
