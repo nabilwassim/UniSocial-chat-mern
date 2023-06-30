@@ -40,6 +40,7 @@ const io = socket(server, {
   cors: {
     origin: "https://creative-sawine-e0ec3b.netlify.app",
     credentials: true,
+    transports: ['websocket'],
   },
 });
 
