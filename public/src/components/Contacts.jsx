@@ -258,17 +258,12 @@ const Container = styled.div`
     }
 
     @media screen and (min-width: 720px) and (max-width: 1080px) {
-      gap: 0.2rem;
-      
-      .avatar {
-        img {
-          height: 2rem;
-          max-inline-size: 100%;
-        }
-      }
+      gap: 0.5rem;
+      display: none;
+
       .username {
         h2 {
-          font-size: 0.5rem;
+          font-size: 1rem;
         }
       }
     }
