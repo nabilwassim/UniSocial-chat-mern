@@ -38,7 +38,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket(server, {
   cors: {
-    origin: "http://unisocial-chat-mern.onrender.com",
+    origin: "https://creative-sawine-e0ec3b.netlify.app",
     methods: ["GET", "POST"],
     credentials: true,
   },
